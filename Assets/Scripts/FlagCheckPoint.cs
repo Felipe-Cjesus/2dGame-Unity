@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class FlagCheckPoint : MonoBehaviour
 {
-    private Collider2D collider;
+    private new Collider2D collider;
     private Animator animator;
+    private Transform posicaoCheckPoint;
 
     // Start is called before the first frame update
     void Start()
@@ -13,6 +14,9 @@ public class FlagCheckPoint : MonoBehaviour
         animator = GetComponent<Animator>();
         collider = GetComponent<Collider2D>();
         animator.SetBool("animation_flag", false);
+
+        posicaoCheckPoint = transform;
+
     }
 
     // Update is called once per frame

@@ -10,6 +10,18 @@ TagManager:
   - CheckPoint
   - Life
   - ContadorVidas
+  - Chao
+  - SaveBot
+  - CheckPoint2
+  - TextoMenssagem
+  - NamePlayer
+  - JogarNovamente
+  - ProximaFase
+  - PlataformaUm
+  - PlataformaDois
+  - PlataformaTres
+  - PlataformaQuatro
+  - PlataformaCinco
   layers:
   - Default
   - TransparentFX
